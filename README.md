@@ -1,4 +1,4 @@
-# Key Value Server (KVS) -> VectorDB 
+# In-Memory Key Value Server (Redis)
 
 ## Overview
 This project is a working high-performance, networked key-value store that supports **hash maps, sorted sets (ZSets), TTL-based expiration, and efficient multi-threading** using a thread pool. The system is designed with **modern C++ (C++23)**, leveraging **RAII, std::expected, spans, and shared mutexes** to ensure optimal performance and safety. 
