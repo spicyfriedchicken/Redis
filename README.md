@@ -3,7 +3,6 @@
 ## Overview
 This project is a working high-performance, networked key-value store that supports **hash maps, sorted sets (ZSets), TTL-based expiration, and efficient multi-threading** using a thread pool. The system is designed with **modern C++ (C++23)**, leveraging **RAII, std::expected, spans, and shared mutexes** to ensure optimal performance and safety. 
 
-Currently, this project is still **in progress** - and will serve as the foundation for a vector store in the future. 
 If it is not already clear, this is pedagogical and not suitable for any workload.  
 
 ### Key Features
@@ -97,10 +96,8 @@ echo "GET key1" | nc localhost 1234
 - **Multi-Tiered Caching w/ w-TinyLFU**
 - **Zero-copy string parsing with `std::span`**
 - **Minimized system calls with batch processing**
-- **Lock-free worker queue in thread pool**
 - **Cache-friendly data structures**
 - **Efficient memory management using RAII**
-
 
 
 ## License
