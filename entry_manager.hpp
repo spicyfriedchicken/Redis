@@ -14,10 +14,10 @@
 #include <mutex>
 #include "common.hpp"
 #include "response_serializer.hpp" 
-#include "src/heap.hpp"               
-#include "src/thread_pool.hpp"   
-#include "src/zset.hpp"             
-#include "src/hashtable.hpp"
+#include "heap.hpp"
+#include "thread_pool.hpp"
+#include "zset.hpp"
+#include "hashtable.hpp"
 
 template <typename T>
 struct IsValidType : std::disjunction<

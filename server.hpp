@@ -16,9 +16,9 @@
 #include "socket.hpp"
 #include "connection.hpp"
 #include "command_processor.hpp"
-#include "src/thread_pool.hpp"
+#include "thread_pool.hpp"
 #include "entry_manager.hpp"
-#include "src/list.hpp"  
+#include "list.hpp"
 
 template<typename T>
 using Result = std::expected<T, std::error_code>;

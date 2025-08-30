@@ -11,9 +11,9 @@
 #include <algorithm>
 #include <utility>
 #include <mutex>        
-#include "src/hashtable.hpp"
-#include "src/heap.hpp"
-#include "src/zset.hpp"
+#include "hashtable.hpp"
+#include "heap.hpp"
+#include "zset.hpp"
 #include "entry_manager.hpp"
 #include "response_serializer.hpp"
 
